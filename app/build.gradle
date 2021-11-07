@@ -59,6 +59,9 @@ dependencies {
     // livedata
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
 
+    // lifecycle scope
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0'
+
     // dagger android
     implementation 'com.google.dagger:hilt-android:2.39.1'
     kapt 'com.google.dagger:hilt-compiler:2.39.1'
