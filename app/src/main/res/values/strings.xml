@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">StateFlow, Flow, SharedFlow, LiveData</string>
+    <string name="livedata">LiveData</string>
+    <string name="stateflow">StateFlow</string>
+    <string name="flow">Flow</string>
+    <string name="sharedflow">SharedFlow</string>
 </resources>
