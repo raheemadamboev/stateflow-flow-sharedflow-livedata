@@ -49,7 +49,9 @@ class MainActivity : AppCompatActivity() {
 
                     Snackbar.make(root, data, Snackbar.LENGTH_SHORT).show()
                 }
+            }
 
+            lifecycleScope.launchWhenStarted {
                 viewmodel.sharedFlow.collectLatest { data ->
                     sharedFlowT.text = data
 
